@@ -1,0 +1,1723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Sector_Rural7">
+
+
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="409dp"
+            android:layout_height="729dp"
+            android:fillViewport="true"
+            android:paddingLeft="20dip"
+            android:paddingTop="30dip"
+            android:paddingRight="20dip"
+            android:paddingBottom="30dip"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/comfortaa"
+                    android:gravity="center"
+                    android:padding="10dip"
+                    android:text="Choose your Items"
+                    android:textSize="20sp" />
+
+
+
+                <CheckBox
+                    android:id="@+id/r_sector17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox"
+                    android:translationX="20dip" />
+                <HorizontalScrollView
+                    android:id="@+id/r_table17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_rate" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_suggestion" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_shopname" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno344"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code344"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name344"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type344"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity344"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate344"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion344"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname344"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno345"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code345"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name345"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type345"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity345"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate345"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion345"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname345"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno346"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code346"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name346"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type346"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity346"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate346"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion346"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname346"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno347"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code347"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name347"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type347"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity347"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate347"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion347"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname347"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                    </TableLayout>
+                </HorizontalScrollView>             <!-- r_sector / r_table = 17  complete 18 ,   -->
+
+                <CheckBox
+                    android:id="@+id/r_sector18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox"
+                    android:translationX="20dip" />
+                <HorizontalScrollView
+                    android:id="@+id/r_table18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_rate" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_suggestion" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_shopname" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno348"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code348"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name348"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type348"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity348"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate348"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion348"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname348"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno349"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code349"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name349"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type349"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity349"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate349"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion349"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname349"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno350"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code350"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name350"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type350"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity350"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate350"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion350"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname350"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno351"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code351"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name351"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type351"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity351"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate351"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion351"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname351"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </HorizontalScrollView>
+
+                <CheckBox
+                    android:id="@+id/r_sector19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox"
+                    android:translationX="20dip" />
+                <HorizontalScrollView
+                    android:id="@+id/r_table19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_rate" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_suggestion" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_shopname" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno352"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code352"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name352"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type352"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity352"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate352"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion352"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname352"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno353"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code353"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name353"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type353"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity353"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate353"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion353"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname353"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno354"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code354"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name354"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type354"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity354"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate354"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion354"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname354"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno355"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code355"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name355"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type355"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity355"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate355"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion355"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname355"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno356"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code356"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name356"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type356"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity356"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate356"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion356"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname356"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+                <CheckBox
+                    android:id="@+id/r_sector20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/checkbox"
+                    android:translationX="20dip" />
+                <HorizontalScrollView
+                    android:id="@+id/r_table20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <TableLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="40dip"
+                        android:paddingTop="10dip"
+                        android:paddingRight="40dip"
+                        android:paddingBottom="10dip">
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_rate" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_suggestion" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_shopname" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno357"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code357"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name357"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type357"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity357"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate357"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion357"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname357"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno358"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code358"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name358"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type358"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity358"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate358"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion358"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname358"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno359"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code359"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name359"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type359"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity359"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate359"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion359"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname359"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno360"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code360"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name360"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type360"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity360"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate360"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion360"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname360"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno361"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code361"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name361"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type361"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity361"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate361"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion361"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname361"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+                        <TableRow
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_sno362"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/e_s_no" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_code362"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_code" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_name362"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_name" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_type362"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_type" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_quantity362"
+                                android:gravity="center"
+                                android:padding="5dip"
+                                android:text="@string/r_e_quantity" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_rate362"
+                                android:inputType="numberDecimal"
+                                android:gravity="center"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_suggestion362"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+
+                            <EditText
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/r_e_shopname362"
+                                android:gravity="center"
+                                android:inputType="text"
+                                android:padding="5dip" />
+                        </TableRow>
+
+
+
+                    </TableLayout>
+                </HorizontalScrollView>
+
+
+
+
+
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <Button
+            android:id="@+id/e4_confirm_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="99dp"
+            android:layout_marginLeft="99dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:background="@drawable/confirm_button"
+            android:enabled="false"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".English_Sector_head">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:fillViewport="true"
+        android:paddingLeft="20dip"
+        android:paddingTop="30dip"
+        android:paddingRight="20dip"
+        android:paddingBottom="140dip"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/comfortaa"
+            android:gravity="center"
+            android:padding="10dip"
+            android:text="Choose your Items"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/sector0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+
+        <CheckBox
+            android:id="@+id/sector4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <!-- sector / table = 5  complete 6 ,  31 -->
+
+        <CheckBox
+            android:id="@+id/sector6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <!-- sector / table = 9  complete 10 ,  61 -->
+
+        <CheckBox
+            android:id="@+id/sector10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+        <CheckBox
+            android:id="@+id/sector19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+
+        <CheckBox
+            android:id="@+id/sector20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+
+        <CheckBox
+            android:id="@+id/sector22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/checkbox"
+            android:translationX="20dip" />
+
+    </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/e4_confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginRight="99dp"
+        android:background="@drawable/confirm_button"
+        android:enabled="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

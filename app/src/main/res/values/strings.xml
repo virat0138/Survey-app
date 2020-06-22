@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Survey App</string>
+
+    <string name="e_s_no"></string>
+    <string name="e_code"></string>
+    <string name="e_name">Name</string>
+    <string name="e_type">Type</string>
+    <string name="e_quantity">Quantity</string>
+    <string name="e_rate">Rate(Rs.)</string>
+    <string name="e_suggestion"></string>
+    <string name="e_shopname"></string>
+    <string name="checkbox">CheckBox</string>
+
+    <string name="r_e_s_no"></string>
+    <string name="r_e_code"></string>
+    <string name="r_e_name">Name</string>
+    <string name="r_e_type">Type</string>
+    <string name="r_e_quantity">Quantity</string>
+    <string name="r_e_rate">Rate(Rs.)</string>
+    <string name="r_e_suggestion"></string>
+    <string name="r_e_shopname"></string>
+
+    <string name="h_s_no"></string>
+    <string name="h_code"></string>
+    <string name="h_name">मद</string>
+    <string name="h_type">किस्म</string>
+    <string name="h_quantity">मापदण्ड</string>
+    <string name="h_rate">भाव(रू0)</string>
+    <string name="h_suggestion"></string>
+    <string name="h_shopname"></string>
+
+    <string name="r_h_s_no"></string>
+    <string name="r_h_code"></string>
+    <string name="r_h_name">मद</string>
+    <string name="r_h_type">किस्म</string>
+    <string name="r_h_quantity">मापदण्ड</string>
+    <string name="r_h_rate">भाव(रू0)</string>
+    <string name="r_h_suggestion"></string>
+    <string name="r_h_shopname"></string>
+
+</resources>

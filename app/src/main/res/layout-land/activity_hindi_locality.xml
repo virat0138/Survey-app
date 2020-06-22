@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/upside_down_background"
+    tools:context=".Hindi_locality">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="17dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7"
+                app:srcCompat="@drawable/rectangle" />
+
+            <EditText
+                android:id="@+id/h_address1"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/white_address"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="दुकान का पता"
+                android:inputType="textMultiLine"
+                android:paddingLeft="20dip"
+                android:paddingTop="10dip"
+                android:paddingRight="20dip"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.31"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toTopOf="@+id/imageView5" />
+
+            <EditText
+                android:id="@+id/h_address2"
+                android:layout_width="330dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/white_address"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="घर का पता(ऐच्छिक)"
+                android:inputType="textMultiLine"
+                android:paddingLeft="20dip"
+                android:paddingTop="10dip"
+                android:paddingRight="20dip"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/h_address1" />
+
+            <EditText
+                android:id="@+id/h_landmark"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/white_thin"
+                android:ems="10"
+                android:hint="सीमा चिन्ह"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/h_address2" />
+
+            <!--Spinner
+                android:id="@+id/h_city"
+                android:layout_width="329dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/white_thin"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintHorizontal_bias="0.3"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/h_landmark" /-->
+
+            <Button
+                android:id="@+id/h3_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125dp"
+                android:background="@drawable/confirm_button_hindi"
+                app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                app:layout_constraintStart_toStartOf="@+id/imageView5"
+                app:layout_constraintTop_toBottomOf="@+id/h_landmark" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_light"
+                android:text="अपना पूर्ण पता दर्ज करें"
+                android:textColor="#555555"
+                android:textSize="35sp"
+                app:layout_constraintBottom_toTopOf="@+id/imageView5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
